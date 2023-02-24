@@ -1,0 +1,206 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+.fondo
+{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.logo
+{
+	width: 15%;
+	height: 15%;
+}
+
+.contenedor
+{
+    position: relative;
+    display: block;
+    text-align: center;
+
+}
+
+.centrado
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    background: white;
+    border-radius: 5%;
+    border: 5px solid black;
+    padding: 10px 100px;
+    transition: 3s;
+}
+
+a
+{
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover
+{
+	color: white;
+}
+
+.centrado:hover
+{
+	background: black;
+	color: white;
+	border: 5px solid white;
+	border-radius: 5%;
+	transition: 1s;
+}
+
+.nombre
+{
+	font-size: 50px;
+	text-decoration: bold;
+}
+
+.contenedorParrafoImagen
+{
+	display: flex;
+	margin: 0 25px;
+	background: #f9fbf5;
+}
+
+.imagenParrafo
+{
+	width: 270px;
+	height: auto;
+}
+
+
+.parrafo
+{
+	margin-left: 10px;
+	text-align: justify;
+	font-size: 25px;
+}
+
+.parrafoHover
+{
+	transition: 4.5s;
+}
+
+.parrafoHover:hover
+{
+	background: black;
+	border-radius: 15%;
+	color: #FFF;
+	transition: 0.8s;
+}
+
+.morado
+{
+	transition: 4.5s;
+}
+
+.morado:hover
+{
+	background: purple;
+	border-radius: 15%;
+	color: #FFF;
+	transition: 0.8s;
+}
+
+.rojo
+{
+	transition: 4.5s;
+}
+
+.rojo:hover
+{
+	background: red;
+	border-radius: 15%;
+	color: #FFF;
+	transition: 0.8s;
+}
+
+.verdeNivel
+{
+	text-decoration: none;
+	color: #000;
+	transition: 4.5s;	
+}
+
+.verdeNivel:hover
+{
+	background: green;
+	border-radius: 15%;
+	color: #FFF;
+	transition: 0.8s;
+}
+
+.verde:hover
+{
+	background: green;
+	border-radius: 15%;
+	transition: 0.8s;
+}
+
+.azul
+{
+	transition: 4.5s;
+}
+
+.azul:hover
+{
+	background: darkblue;
+	border-radius: 15%;
+	color: #FFF;
+	transition: 0.8s;
+}
+
+button
+{
+	margin-left: 92px;
+	padding: 8px 20px;
+	background: #f9fbf5;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	border-radius: 6%;
+	border: 4px solid #000;
+	transition: 3s;
+}
+
+button:hover
+{
+	background: black;
+	color: white;
+	border: 4px solid white;
+	border-radius: 10%;
+	transition: 1s;
+}
+
+main
+{
+	background: #f9fbf5;
+}
+
+hr
+{
+	border: 3px solid #000;
+	margin: 9px 25px;
+}
+
+.contenedorBoton
+{
+	display: flex;
+	margin: 20px 0;
+}
+
+.parrafoBoton
+{
+	margin-left: 90px;
+	font-size: 25px;
+}
